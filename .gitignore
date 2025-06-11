@@ -1,0 +1,5 @@
+node_modules/
+apps/desktop/node_modules/
+apps/ochestrator/node_modules/
+apps/packages/node_modules/
+.env

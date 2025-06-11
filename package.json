@@ -1,0 +1,13 @@
+{
+  "name": "aio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jxnathas/aio.git",
+  "author": "Jonathas <44008790+jxnathas@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
