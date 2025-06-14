@@ -5,12 +5,22 @@
   "types": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+      "watch": "tsc --watch"
+
   },
   "dependencies": {
     "openai": "^5.3.0"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
+  },
+
+  "type": "module",
+  "exports": {
+  ".": {
+    "import": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+   }
   }
 }
